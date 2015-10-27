@@ -1,0 +1,5 @@
+name = Contact Simplified
+description = Remove the "Send yourself a copy" checkbox.
+package = my_modules
+core = 7.x
+files[] = contact.simplified.module

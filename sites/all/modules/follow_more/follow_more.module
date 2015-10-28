@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Custom Function
+ */
+
 function follow_more_follow_networks_alter(&$networks, $uid = 0) {
   // Add a network.
   $networks[$uid]['github'] = array(
@@ -16,4 +21,9 @@ function follow_more_follow_networks_alter(&$networks, $uid = 0) {
     'title' => t('Dribbble'),
     'domain' => 'dribbble.com',
   );
+
+  $networks[$uid]['etsy'] = array (
+       'title' => t('Etsy'),
+       'domain' => 'etsy.com',
+   );
 }

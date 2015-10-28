@@ -1,0 +1,19 @@
+<?php
+
+function follow_more_follow_networks_alter(&$networks, $uid = 0) {
+  // Add a network.
+  $networks[$uid]['github'] = array(
+    'title' => t('Github'),
+    'domain' => 'github.com',
+  );
+
+  $networks[$uid]['drupal'] = array(
+    'title' => t('Drupal.org'),
+    'domain' => 'drupal.org',
+  );
+
+  $networks[$uid]['dribbble'] = array(
+    'title' => t('dribbble'),
+    'domain' => 'dribbble.com',
+  );
+}

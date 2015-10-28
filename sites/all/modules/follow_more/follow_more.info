@@ -1,0 +1,4 @@
+name = Follow More
+description = extend follow module to have other links
+package = charles_modules
+core = 7.x

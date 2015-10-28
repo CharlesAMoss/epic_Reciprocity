@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Custom Function
+ */
+
+function contact_basic_form_form(&$form, &$form_state, $form_id) {
+  if ($form_id == 'contact_site_form'){
+    $form['copy']['#type'] = 'hidden';
+    $form['subject']['#type'] = 'hidden';
+    $form['subject']['#defult_value'] = 'Feedback';
+  }
+}

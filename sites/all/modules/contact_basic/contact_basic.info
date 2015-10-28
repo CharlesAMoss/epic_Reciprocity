@@ -1,0 +1,4 @@
+name = Contact Basic
+description = hide subject and self cc checkbox
+package = charles_modules
+core = 7.x
